@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  background-color: rgb(160, 244, 216);
+  padding: 20px;
+  margin: 0;
+  font-size: 2rem; 
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem; 
+    padding: 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem; 
+    padding: 10px; 
+  }
+}
